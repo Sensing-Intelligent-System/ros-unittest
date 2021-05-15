@@ -1,9 +1,9 @@
 #!/usr/bin/env python
+
 import rospy
 import unittest, rostest
 from std_msgs.msg import String
 from std_msgs.msg import Float32MultiArray
-
 
 class RostestExampleTesterNode(unittest.TestCase):
     def __init__(self, *args):
